@@ -1,0 +1,24 @@
+{
+  "name": "anux-smart-classes",
+  "version": "0.1.0",
+  "type": "library",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/Anupheaus/anux-smart-classes.git",
+  "author": "Anupheaus",
+  "license": "Apache-2.0",
+  "private": false,
+  "scripts": {
+    "build": "anux build",
+    "build:dev": "anux build dev"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "anux-common": "^1.0.49"
+  },
+  "devDependencies": {
+    "anux-package": "^1.0.51",
+    "typescript": "^3.8.3"
+  }
+}

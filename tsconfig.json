@@ -1,0 +1,6 @@
+{
+  "extends": "anux-package/templates/tsconfig.json",
+  "compilerOptions": {
+    "noImplicitThis": true
+  }
+}
